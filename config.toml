@@ -1,4 +1,4 @@
-baseurl = "https://virati.github.ioa"
+baseurl = "https://virati.github.io"
 title = "Vineet's GitHub Overview"
 theme = "hugo-nederburg-theme"
 languageCode = "en-us"
@@ -22,16 +22,16 @@ paginate = 5 #frontpage pagination
 [params]
   # Unmark to use post folder for images. Default is static folder.
   #usepostimgfolder = true
-  slogan = "A fast &amp; secure theme"
-  description = "Describe your website" # meta description
+  slogan = "Neural control... but like in space"
+  description = "Overview of Projects" # meta description
   # You need to set author to have an author bio. If you have a writer in the markdown file it will override this.
-  author = "Göran Svensson"
-  authorLink = "https://appernetic.io/"
+  author = "Vineet Tiruvadi"
+  authorLink = "https://vineet.tiruvadi.com/"
   bio = [
-    "Göran is an avid blogger and the founder of <a href='https://appernetic.io/'>Appernetic.io</a>. This is the author bio shown after posts."
+  	"Vineet Tiruvadi is an MD/PhD student at Emory/GeorgiaTech focused on neuroengineering and control theory, particularly in treating psychiatric disorders"
   ]
   copyright = [
-    "&copy; 2018 Göran Svensson",
+    "&copy; 2018 Vineet Tiruvadi",
     "Nederburg Hugo Theme by [Appernetic](https://appernetic.io).",
     "A port of Tracks by Compete Themes."
   ]
@@ -49,7 +49,7 @@ paginate = 5 #frontpage pagination
      # - send a dummy email yourself to confirm your account
      # - click the confirm link in the email from www.formspree.io
      # - you're done. Happy mailing!
-  email = "goran@molnsys.com"
+  email = "virati+VT@gmail.com"
 
   # Nav links in the side bar
   [[menu.main]]
@@ -69,37 +69,18 @@ paginate = 5 #frontpage pagination
 
 # this will also be in author bio if there is no writer.
   [params.social]
-  facebook      = "full Social profile url in facebook"
-  googleplus    = "full profile url in googleplus"
-  email         = "email@example.com"
-  twitter       = "full profile url in twitter"
-  linkedin      = "full profile url in linkedin"
-  stackoverflow = "full profile url in stackoverflow"
-  instagram     = "full profile url in instagram"
-  github        = "full profile url in github"
-  pinterest     = "full profile url in pinterest"
+  email         = "virati+VT@gmail.com"
+  twitter       = "twitter.com/vineettiruvadi"
+  linkedin      = "linkedin.com"
+  github        = "https://github.com/virati/"
   rss           = true
 
 # Add a writer, then use it in the markdown front matter like this: writer = "Lukas Herman"
   [params.writers]
-    [params.writers."Lukas Herman"]
-    link = "https://lherman.tk"
-    email = "lherman.cs@gmail.com"
-    bio = [
-      "Lukas has a few skills up his sleve. He can fly blindfolded under a bridge while simultanous writing blog posts."
-    ]
-    facebook      = "full lukas profile url in facebook"
-    googleplus    = "full profile url in googleplus"
-    twitter       = "full profile url in twitter"
-    linkedin      = "full profile url in linkedin"
-    stackoverflow = "full profile url in stackoverflow"
-    instagram     = "full profile url in instagram"
-    github        = "full profile url in github"
-    pinterest     = "full profile url in pinterest"
 
-    [params.writers."Göran Svensson"]
-    link = "https://appernetic.io/"
-    email = "goran@molnsys.com"
+    [params.writers."Vineet Tiruvadi"]
+    link = "https://virati.github.io"
+    email = "virati+VT@gmail.com"
     bio = [
       "Göran is an avid blogger and the founder of <a href='https://appernetic.io/'>Appernetic.io</a>. This is the author bio shown after posts."
     ]
